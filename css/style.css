@@ -10,33 +10,32 @@ body, html {
 .border h1 {
     font-size: 90px;
     letter-spacing: 0.10em;
-    color: #57282e;
+    color: #000;
     text-transform: uppercase;
-}
-
-section {
-    text-align: center;
-    padding: 50px;
 }
 /*************************Class Selectors*******************************/
 
-.nav-container {
+ .nav-container {
+     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: lightgrey;
+    background-color: rgb(187, 181, 181);
+    overflow: hidden;
+    position: fixed;
+    z-index: 1;
     
 }
 
 .nav-links {
     margin-top: 20px;
     margin-bottom: 0px;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
     
-}
+} 
 
-a {
-    background-color:;
+ a {
+    
     text-decoration: none;
     color: #000;
     font-size: 20px;
@@ -46,10 +45,10 @@ a {
 }
 
 a:hover {
-    border-left: 3px solid #000;
-    border-right: 3px solid #000;
+    border-bottom: 3px solid #000;
     transform: scale(4);
-}
+    color: rgb(145, 143, 143);
+} 
 
 
 .logo {
@@ -58,7 +57,7 @@ a:hover {
 }
 .first-img, .second-img, .third-img, .first2-img{
     position: relative;
-    opacity: 0.80;
+    opacity: 1;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -66,7 +65,7 @@ a:hover {
 
 
 .first-img {
-    background: url('../img/img1.jpg') fixed;
+    background: url('../img/img7.jpg') fixed;
     min-height: 100%;
     
 }
@@ -84,7 +83,7 @@ a:hover {
 }
 
 .first2-img {
-    background: url('../img/img1.jpg');
+    background: url('../img/img1.jpg') fixed;
     min-height: 100%;
 }
 
@@ -96,7 +95,7 @@ a:hover {
     color: #000;
     font-size: 30px;
     font-family: "Lobster"; 
-    background-color: rgba(255, 255, 255, 0.39);
+    /* background-color: rgba(255, 255, 255, 0.39); */
 }
 
 .pro {
@@ -108,14 +107,22 @@ a:hover {
     color:#57282e;
 }
 
+.section {
+    text-align: center;
+    padding: 30px;
+}
+
 .section1 {
     background-color: rgba(0, 0, 0, 0.322);
+    padding: 150px;
 }
 
 .section2 {
     background-color: #666;
+    padding: 150px;
 }
 
 .section3 {
     background-color: rgba(0, 0, 0, 0.322);
+    padding: 150px;
 }
