@@ -10,7 +10,7 @@ body, html {
 .border h1 {
     font-size: 90px;
     letter-spacing: 0.10em;
-    color: #000;
+    color: rgb(179, 67, 67);
     text-transform: uppercase;
 }
 /*************************Class Selectors*******************************/
@@ -57,7 +57,7 @@ a:hover {
 }
 .first-img, .second-img, .third-img, .first2-img{
     position: relative;
-    opacity: 1;
+    opacity: .75;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -92,7 +92,7 @@ a:hover {
     top: 50%;
     width: 100%;
     text-align: center;
-    color: #000;
+    color: #fff;
     font-size: 30px;
     font-family: "Lobster"; 
     /* background-color: rgba(255, 255, 255, 0.39); */
@@ -100,7 +100,7 @@ a:hover {
 
 .pro {
     text-decoration: underline #000;
-    color: #a14c58;
+    color: rgb(179, 67, 67);
 }
 
 .restOf-pro {
@@ -113,7 +113,7 @@ a:hover {
 }
 
 .section1 {
-    background-color: rgba(0, 0, 0, 0.322);
+    background-color: rgb(150, 146, 146);
     padding: 150px;
 }
 
