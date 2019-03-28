@@ -1,16 +1,64 @@
+/*****************************TAG SELECTORS*******************************/
 body, html {
     height: 100%;
     margin: 0;
-    font-size: 16px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    line-height: 1.8em;
-    color: #666;
 }
 
+* {
+    margin: 0;
+}
+.border h1 {
+    font-size: 90px;
+    letter-spacing: 0.10em;
+    color: #57282e;
+    text-transform: uppercase;
+}
+
+section {
+    text-align: center;
+    padding: 50px;
+}
 /*************************Class Selectors*******************************/
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: lightgrey;
+    
+}
+
+.nav-links {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+    
+}
+
+a {
+    background-color:;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    margin: 20px 30px 20px 30px;
+    font-weight: 900;
+    padding: 20px 10px 20px 10px;
+}
+
+a:hover {
+    border-left: 3px solid #000;
+    border-right: 3px solid #000;
+    transform: scale(4);
+}
+
+
+.logo {
+    margin-top: 20px;
+    margin-left: 20px;
+}
 .first-img, .second-img, .third-img, .first2-img{
     position: relative;
-    opacity: 0.75;
+    opacity: 0.80;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -39,13 +87,35 @@ body, html {
     background: url('../img/img1.jpg');
     min-height: 100%;
 }
+
 .first-text {
     position: absolute;
     top: 50%;
     width: 100%;
     text-align: center;
     color: #000;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 65px;
-    
+    font-size: 30px;
+    font-family: "Lobster"; 
+    background-color: rgba(255, 255, 255, 0.39);
+}
+
+.pro {
+    text-decoration: underline #000;
+    color: #a14c58;
+}
+
+.restOf-pro {
+    color:#57282e;
+}
+
+.section1 {
+    background-color: rgba(0, 0, 0, 0.322);
+}
+
+.section2 {
+    background-color: #666;
+}
+
+.section3 {
+    background-color: rgba(0, 0, 0, 0.322);
 }
