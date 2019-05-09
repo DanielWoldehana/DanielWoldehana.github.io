@@ -1,120 +1,41 @@
 /*********************************************HTML TAGS************************************/
 body {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-image: url(./images//background.jpg);
 }
 
-
+li {
+	display: inline-block;
+	margin: 10px;
+	font-size: 23px;
+}
 /**************************************************ID TAGS*************************************/
-
-#myNav1  {
-    background-color:#141F26;
-}
 
 /* *************************************************CLASS TAGS************************* */
 
-.navName {
-    font-family: 'Russo One', sans-serif;
-    font-size: 4vh;
-    color: #B4CBD9;
+.imageContainer {
+	margin-left: auto;
+	margin-right: auto;
+}
+.myImage {
+	display: block;
+	height: 200px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.navInfo {
-    font-family: 'Acme', sans-serif;
-    font-size: 130%;
-    color: #73A2BF;
-    padding: 10px;
+.myIcons {
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.navInfo:hover {
-    color: white;
+.myPages {
 }
 
-.navbar-toggler-icon{
-    color: white;
-}
-.custom-toggler.navbar-toggler {
-    background-color:rgb(97, 134, 156);
-    font-size: 100%;
-}
-
-.mainContent {
- 
-    height: 100vh;
-}
-
-.container {
-    border: 4px solid black;
-}
-
-.profPicCont {
-    position: relative;
-}
-
-.profilePic {
-    height: 112px;
-    width: 112px;
-    margin: 15% 0 0 0;
-}
-
-.jobTitle {
-    text-align: center;
-    display: inline-block;
-    position: absolute;
-    bottom: 0;
-    color: #2E4959;
-    font-family: 'Acme', sans-serif;
-}
-
-.projImg {
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-}
-
-@media screen and (max-width: 2200px) {
-    .projSlide {
-        width: 19%;
-        margin: auto;
-    }
-}
-
-@media screen and (max-width: 990px) {
-    .projSlide {
-        width: 35%;
-        margin: auto;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .projSlide {
-        width: 35%;
-        margin: auto;
-    }
-}
-
-@media screen and (max-width: 780px) {
-    .projSlide {
-        width: 50%;
-        margin: auto;
-    }
-}
-
-@media screen and (max-width: 410px) {
-    .projSlide {
-        width: 60%;
-        margin: auto;
-    }
-}
-
-.projTitle {
-    color: #2E4959;
-    font-family: 'Acme', sans-serif;
-    font-size: 25px;
-}
-
-.proPtag {
-    color: #2E4959;
-    font-size: 40px;
-    font-family: 'Acme', sans-serif;
+.myLinks-Ul {
+	list-style-type: none;
+	padding: 0;
 }
